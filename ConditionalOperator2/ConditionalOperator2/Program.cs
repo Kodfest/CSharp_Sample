@@ -12,7 +12,8 @@ namespace ConditionalOperator2
         {
             Console.WriteLine("Bir Sayı Girin");
 
-            int number = Convert.ToInt32(Console.ReadLine());
+            // okunan değer integer'a çevirilip number'a atandı
+            int number = Convert.ToInt32(Console.ReadLine()); 
 
             if (number == 0)
             {
