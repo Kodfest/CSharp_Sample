@@ -12,22 +12,33 @@ namespace ConditionalOperator2
         {
             Console.WriteLine("Bir Sayı Girin");
 
-            // okunan değer integer'a çevirilip number'a atandı
-            int number = Convert.ToInt32(Console.ReadLine()); 
+            /*
+            Beklenmedik durumlarda yazdığımız kodun patlaması için
+            Try Catch kullanarak programımızın hata vermesini önlemiş oluruz.
+            */
+            try
+            {
+                // okunan değer integer'a çevirilip number'a atandı
+                int number = Convert.ToInt32(Console.ReadLine());
 
-            if (number == 0)
-            {
-                Console.WriteLine("Sıfır Girildi.");
+                if (number == 0)
+                {
+                    Console.WriteLine("Sıfır Girildi.");
+                }
+                else if (number < 0)
+                {
+                    Console.WriteLine("Negatif Sayı Girildi.");
+                }
+                else
+                {
+                    Console.WriteLine("Pozitif Sayı Girildi.");
+                }
             }
-            else if (number < 0)
+            catch (Exception ex)
             {
-                Console.WriteLine("Negatif Sayı Girildi.");
+                // Dönen uyarı mesajı yazdırılıyor
+                Console.WriteLine(ex.Message);
             }
-            else
-            {
-                Console.WriteLine("Pozitif Sayı Girildi.");
-            }
-
             Console.ReadKey();
         }
     }
