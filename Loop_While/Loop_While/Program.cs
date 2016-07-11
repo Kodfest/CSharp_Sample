@@ -10,6 +10,11 @@ namespace Loop_While
     {
         static void Main(string[] args)
         {
+            bool state = true;
+
+            while (state)
+            {
+            }
         }
     }
 }
