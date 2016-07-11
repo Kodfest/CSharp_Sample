@@ -1,6 +1,6 @@
 # CSharp_Sample
 C# şart/koşul örnekleri - 3
-
+```
 switch (kontrol ifadesi)
 
 {
@@ -21,3 +21,5 @@ switch (kontrol ifadesi)
 }
 
 <a href="http://www.kodfest.com" target"_blank">www.kodfest.com</a>
+
+```
