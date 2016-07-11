@@ -1,6 +1,6 @@
 # CSharp_Sample
 C# şart/koşul örnekleri - 3
-```
+```C#
 switch (kontrol ifadesi)
 {
     case deger1: cikti1;
