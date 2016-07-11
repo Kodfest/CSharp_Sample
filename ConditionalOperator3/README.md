@@ -5,23 +5,18 @@ switch (kontrol ifadesi)
 
 {
 
-  case deger1: cikti1;
+    case deger1: cikti1;
 
-  break;
+    break;
   
-  case deger2: cikti2;
+    case deger2: cikti2;
 
-  break;
+    break;
   
-  .
   
-  .
+    default: cikti0;
   
-  .
-  
-  default: cikti0;
-  
-  break;
+    break;
   
 }
 
