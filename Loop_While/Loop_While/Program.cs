@@ -14,6 +14,7 @@ namespace Loop_While
 
             while (state)
             {
+                // Kod
             }
         }
     }
