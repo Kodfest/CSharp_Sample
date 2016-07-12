@@ -10,6 +10,12 @@ namespace Loop_DoWhile
     {
         static void Main(string[] args)
         {
+            bool state = true;
+
+            do
+            {
+                //kod
+            } while (state);
         }
     }
 }
