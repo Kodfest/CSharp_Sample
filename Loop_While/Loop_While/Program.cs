@@ -15,6 +15,9 @@ namespace Loop_While
 
             while (state)
             {
+                // https://github.com/Kodfest/CSharp_Sample/tree/master/ConditionalOperator3
+                // switch case yapısı örneğîne whîle döngüsü yardmıyla devamlılık eklendî
+                 
                 Console.WriteLine("İşlem Seçiniz\n");
                 
                 Console.WriteLine("1. Satış Bürosu\n2. Muhasebe Bürosu\n3. İnsan Kaynakları\n4. Müşteri Temsilcisi");
