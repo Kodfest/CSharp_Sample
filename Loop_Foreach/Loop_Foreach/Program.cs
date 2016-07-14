@@ -19,7 +19,7 @@ namespace Loop_Foreach
             Cities.Add("İstanbul");
             Cities.Add("Ankara");
 
-            //şeihrler yazdırılıyor
+            //şehirler yazdırılıyor
             foreach (var item in Cities)
             {
                 Console.WriteLine(item);
@@ -27,6 +27,9 @@ namespace Loop_Foreach
 
             try
             {
+                /*
+                 ToList() ?
+                */
                 foreach (var item in Cities.ToList())
                 {
                     // item listeden çıkarılıyor
