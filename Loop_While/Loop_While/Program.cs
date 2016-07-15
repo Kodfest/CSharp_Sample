@@ -11,7 +11,7 @@ namespace Loop_While
         static void Main(string[] args)
         {
             bool state = true;
-            char c;
+            string c;
 
             while (state)
             {
@@ -45,10 +45,10 @@ namespace Loop_While
                 }
                 Console.WriteLine(cikti);
 
-                Console.WriteLine("Yenı ıslem yapmak ıstıyor musunuz? (e/h)");
-                c = Convert.ToChar(Console.ReadLine());
+                Console.WriteLine("Yenı ıslem yapmak ıstıyor musunuz? (evet|hayır)");
+                c = Convert.ToString(Console.ReadLine());
 
-                if (c == 'e')
+                if (c == "evet")
                     state = true;
                 else
                     state = false;           
