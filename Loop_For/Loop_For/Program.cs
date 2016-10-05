@@ -8,6 +8,7 @@ namespace Loop_For
 {
     class Program
     {
+        // Test Commit
         static void Main(string[] args)
         {
             Console.Write("Rakamlar: ");
