@@ -28,22 +28,38 @@ namespace Calculator
                 switch (button.Text)
                 {
                     case "+" :
-                        Sonuc.Text = "";
+                        if (Sonuc.Text != "")
+                        {
+                            bellek = Convert.ToDouble(Sonuc.Text);
+                            Sonuc.Text = "";
+                        }
                         islem = "+";
                         break;
 
                     case "-":
-                        Sonuc.Text = "";
+                        if (Sonuc.Text != "")
+                        {
+                            bellek = Convert.ToDouble(Sonuc.Text);
+                            Sonuc.Text = "";
+                        }
                         islem = "-";
                         break;
 
                     case "x":
-                        Sonuc.Text = "";
+                        if (Sonuc.Text != "")
+                        {
+                            bellek = Convert.ToDouble(Sonuc.Text);
+                            Sonuc.Text = "";
+                        }
                         islem = "x";
                         break;
 
                     case "/":
-                        Sonuc.Text = "";
+                        if (Sonuc.Text != "")
+                        {
+                            bellek = Convert.ToDouble(Sonuc.Text);
+                            Sonuc.Text = "";
+                        }
                         islem = "/";
                         break;
 
