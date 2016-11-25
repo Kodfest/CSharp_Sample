@@ -1,0 +1,40 @@
+HATALAR
+
+> System.OutOfMemoryException: Programýn çalýþmasý için yeterli bellek kalmadýysa oluþur.
+
+> System.StackOverflowException: Stack (Yýðýn) bellek bölgesinin birden fazla metod için kullanýlmasý durumunda oluþur. Genellikle kendini çaðýran metodlarýn hatalý kullanýlmasýyla meydana gelir.
+
+> System.NullReferenceException: Bellekte yer ayrýlmamýþ bir nesne üzerinden sýnýfýn üye elemanlarýna eriþmeye çalýþýrken oluþur.
+
+> System.OverflowException: Bir veri türüne kapasitesinden fazla veri yüklemeye çalýþýlýrken oluþur.
+
+> System.InvalidCastException: Tür dönüþtürme operatörüyle geçersiz tür dönüþümü yapýlmaya çalýþýldýðýnda oluþur.
+
+> System.IndexOutOfRangeException: Bir dizinin olmayan elemanýna eriþilmeye çalýþýlýrken fýrlatýlýr.
+
+> System.ArrayTypeMismatchException: Bir dizinin elemanýna yanlýþ türde veri atanmaya çalýþýlýrken oluþur.
+
+> System.DividedByZero: Sýfýra bölme yapýldýðý zaman oluþur.
+
+> System.ArithmeticException: DividedByZero ve OverflowException bu sýnýftan türemiþtir. Hemen hemen matematikle ilgili tüm istisnalarý yakalayabilir.
+
+> System.FormatException: Metodlara yanlýþ biçimde parametre verildiðinde oluþur.
+
+HATA ELEMANLARI
+
+> Message (Mesaj): Ortaya çýkan hatayla ilgili açýklayýcý bir mesaj saklar.
+
+> Source (Kaynak): Ýstisnai durum nesnesinin gönderildiði uygulama ya da dosyanýn adýdýr.
+
+> StackTrace (YýðýnÝzi): Hatanýn oluþtuðu metod ve program hakkýnda bilgi içerir.
+
+> HelpLink (YardýmBaðlantýsý): Hatayla ilgili olan yardým dosyasýnýn yol bilgisini saklar.
+
+> TargetSite (HedefAlaný): Ýstisnai durumu yaratan metod ile ilgili bilgi verir.
+
+> InnerException (DahiliÝstisna): "catch" bloðu içerisinden bir hata yaratýlýrsa "catch" bloðuna gelinmesine yol açan istisnai durumun Exception nesnesidir.
+
+> ToString (Dizgiye): Bu metod ilgili hataya iliþkin hata metninin tamamýný dizi olarak döndürür.
+
+
+Kaynak: http://bidb.itu.edu.tr/seyirdefteri/blog/2013/09/06/c-ta-i-stisnai-durum-y%C3%B6netimi-(exception-handling)
