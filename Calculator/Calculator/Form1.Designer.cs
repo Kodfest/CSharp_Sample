@@ -45,7 +45,6 @@
             this.num0 = new System.Windows.Forms.Button();
             this.esittir = new System.Windows.Forms.Button();
             this.clear = new System.Windows.Forms.Button();
-            this.kok = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // num1
@@ -223,33 +222,20 @@
             this.clear.BackColor = System.Drawing.Color.Red;
             this.clear.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.clear.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.clear.Location = new System.Drawing.Point(51, 143);
+            this.clear.Location = new System.Drawing.Point(12, 143);
             this.clear.Name = "clear";
-            this.clear.Size = new System.Drawing.Size(169, 20);
+            this.clear.Size = new System.Drawing.Size(208, 20);
             this.clear.TabIndex = 16;
             this.clear.Text = "Temizle";
             this.clear.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.clear.UseVisualStyleBackColor = false;
             this.clear.Click += new System.EventHandler(this.ButtonClick);
             // 
-            // kok
-            // 
-            this.kok.AllowDrop = true;
-            this.kok.Location = new System.Drawing.Point(12, 143);
-            this.kok.Name = "kok";
-            this.kok.Size = new System.Drawing.Size(33, 20);
-            this.kok.TabIndex = 17;
-            this.kok.Text = "K";
-            this.kok.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.kok.UseVisualStyleBackColor = true;
-            this.kok.Click += new System.EventHandler(this.ButtonClick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(234, 170);
-            this.Controls.Add(this.kok);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.num0);
             this.Controls.Add(this.esittir);
@@ -293,7 +279,6 @@
         private System.Windows.Forms.Button num0;
         private System.Windows.Forms.Button esittir;
         private System.Windows.Forms.Button clear;
-        private System.Windows.Forms.Button kok;
     }
 }
 
